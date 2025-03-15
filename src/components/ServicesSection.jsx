@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/ServicesSection.css';
 import beginnerProgram from '../images/beginner-program.png';
-import green from '../images/green.jpeg';
 import advance from '../images/advanced.png';
 import elite from '../images/Elite.png';
 // Import other program images once you have them
