@@ -15,11 +15,21 @@ const SuccessModal = ({ isOpen, onClose }) => {
         <div className="success-icon">
           <i className="bi bi-check-circle-fill"></i>
         </div>
-        <h2>Thank You!</h2>
-        <p>Your consultation request has been successfully submitted.</p>
-        <p>We will contact you soon to discuss your fitness journey.</p>
-        <button className="btn btn-success rounded-pill px-4" onClick={onClose}>
-          Got it!
+        <h2>Thank You for Choosing MFit!</h2>
+        <div className="success-message">
+          <p className="main-message">Your consultation request has been successfully submitted.</p>
+          <div className="details">
+            <p><i className="bi bi-clock"></i> We'll review your information within 24 hours</p>
+            <p><i className="bi bi-envelope"></i> You'll receive a confirmation email shortly</p>
+            <p><i className="bi bi-chat-dots"></i> We'll contact you to discuss your fitness journey</p>
+          </div>
+        </div>
+        <button 
+          className="success-btn" 
+          onClick={onClose}
+          aria-label="Close success message"
+        >
+          <i className="bi bi-check2-circle"></i> Close
         </button>
       </div>
     </div>
@@ -373,10 +383,6 @@ const ConsultationForm = ({ isOpen, onClose }) => {
       );
 
       setShowSuccess(true);
-      setTimeout(() => {
-        setShowSuccess(false);
-        onClose();
-      }, 3000);
     } catch (error) {
       console.error('Error submitting form:', error);
       alert('There was an error submitting your form. Please try again.');
