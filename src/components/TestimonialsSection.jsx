@@ -23,7 +23,7 @@ const testimonials = [
     name: 'Ntemesha Ntambo',
     role: 'Advanced Elite',
     image: ntenesha,
-    quote: 'The daily form check support was invaluable. I never felt lost or confused, and the home-friendly workouts fit perfectly into my busy schedule.',
+    quote: 'The daily form check support was invaluable. I never felt lost or confused, and the workouts fit perfectly my goals.',
     achievement: 'Strength',
     duration: '4 weeks'
   },
@@ -42,7 +42,7 @@ const testimonials = [
     name: 'Rinad',
     role: 'Intermediate Program Graduate',
     image: rinad,
-    quote: 'The virtual group sessions were motivating and fun. I loved how the program balanced strength training with performance improvements, I was able to bench 10kg dumbbells on each side.',
+    quote: 'The virtual sessions were motivating and fun. I loved how the program balanced strength training with performance improvements, I was able to bench 10kg dumbbells on each side.',
     achievement: 'PR in all lifts',
     duration: '6 weeks'
   },
