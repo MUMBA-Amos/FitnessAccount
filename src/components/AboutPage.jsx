@@ -34,7 +34,7 @@ const AboutPage = () => {
                 <h2 className="mb-4">Hi, I'm Mumba</h2>
                 <p className="lead mb-4">
                   As a dedicated fitness coach, I specialize in online personal training 
-                  and nutrition coaching, helping clients achieve their dream physiques 
+                  and nutrition coaching, helping clients achieve their dream physique 
                   through structured programs and consistent guidance.
                 </p>
 

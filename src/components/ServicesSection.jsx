@@ -26,7 +26,6 @@ const ServicesSection = () => {
             'friendly workout routines',
             'Video guides for proper form',
             'Minimal equipment needed',
-            'Daily form check support',
             'Motivation & Insipirations',
           ]
         },
@@ -82,9 +81,7 @@ const ServicesSection = () => {
           phase: 'Phase 1: Strength Foundation (Weeks 1-3)',
           details: [
             'Personalized training plans',
-            'Weekly 1-on-1 video calls',
             'Custom nutrition planning',
-            '24/7 coach access'
           ]
         },
         {
@@ -100,7 +97,6 @@ const ServicesSection = () => {
           phase: 'Phase 3: Peak Performance (Weeks 7-8)',
           details: [
             'Performance optimization',
-            'Daily check-ins',
             'Final assessment call',
             'Future program planning'
           ]
