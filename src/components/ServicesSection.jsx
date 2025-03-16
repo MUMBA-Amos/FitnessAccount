@@ -3,6 +3,7 @@ import './styles/ServicesSection.css';
 import beginnerProgram from '../images/beginner-program.png';
 import advance from '../images/advanced.png';
 import elite from '../images/Elite.png';
+import weightLoss from '../images/weight-loss.png';
 // Import other program images once you have them
 // import intermediateProgram from '../images/intermediate-program.jpg';
 // import advancedProgram from '../images/advanced-program.jpg';
@@ -12,6 +13,52 @@ const ServicesSection = () => {
   const whatsappLink = `https://wa.me/${phoneNumber}`;
 
   const programs = [
+    {
+      icon: 'bi bi-graph-down-arrow',
+      title: 'Weight Loss Program',
+      duration: '12 Weeks',
+      image: weightLoss,
+      description: 'Transform your body with personalized calorie tracking, weekly check-ins, and comprehensive nutrition and workout plans designed for sustainable weight loss.',
+      features: [
+        {
+          phase: 'Phase 1: Foundation & Fat Loss (Weeks 1-4)',
+          details: [
+            'Daily calorie & macro tracking',
+            'Custom meal planning with recipes',
+            'Weekly 30-min to 60-min video calls',
+            'Personalized workout routines',
+            'Weekly measurements & photos',
+          ],
+          phasePrice: '$63'
+        },
+        {
+          phase: 'Phase 2: Accelerated Results (Weeks 5-8)',
+          details: [
+            'Adjusted calorie calculations',
+            'Macro refinement based on progress',
+            'Bi-weekly progress calls',
+            'Advanced nutrition strategies',
+            'Meal prep optimization',
+            'Eating out guidelines',
+          ],
+          phasePrice: '$63'
+        },
+        {
+          phase: 'Phase 3: Lifestyle Integration (Weeks 9-12)',
+          details: [
+            'Maintenance calorie planning',
+            'Long-term nutrition education',
+            'Weekly strategy calls',
+            'Flexible dieting approach',
+            'Social eating strategies',
+            'Sustainable habit formation',
+            'Ongoing support system'
+          ],
+          phasePrice: '$63'
+        }
+      ],
+      price: '$63 per phase'
+    },
     {
       icon: 'bi bi-person-bounding-box',
       title: 'Beginner Online Program',
