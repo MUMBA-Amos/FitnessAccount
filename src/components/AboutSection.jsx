@@ -56,7 +56,7 @@ const AboutSection = () => {
           
           <div className="col-lg-6">
             <div className="about-content ps-lg-4">
-              <h6 className="text-accent text-uppercase mb-3">About mfit</h6>
+              <h6 className="text-accent text-uppercase mb-3">About mfitx</h6>
               <h2 className="display-5 fw-bold mb-4">Transform Your Body With Expert Online Coaching</h2>
               <p className="lead mb-4">
                 At mfit, I am dedicated to bringing professional fitness coaching to you, wherever you are. 
