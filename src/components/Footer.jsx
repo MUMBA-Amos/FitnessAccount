@@ -48,8 +48,8 @@ const Footer = () => {
               <div className="footer-links">
                 <h5 className="mb-4">Services</h5>
                 <ul className="list-unstyled">
-                  <li><a href="/nutrition">Nutrition Plans</a></li>
-                  <li><a href="/online-coaching">Online Coaching</a></li>
+                  {/* <li><a href="/nutrition">Nutrition Plans</a></li> */}
+                  <li><a href="/online-coaching">Coaching</a></li>
                 </ul>
                 <div className="social-links mt-4">
                   <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">

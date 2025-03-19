@@ -46,7 +46,7 @@ const HeroSection = () => {
           <div className="col-lg-8">
             <h6 className="text-accent text-uppercase mb-3">Welcome to mfitx</h6>
             <h1 className="display-1 fw-bold mb-4">Get Fit, Stay Motivated</h1>
-            <p className="lead mb-4">Premium Online Fitness</p>
+            <p className="lead mb-4">Premium Fitness</p>
             <div className="d-flex gap-3">
               
               <button 

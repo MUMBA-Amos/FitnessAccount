@@ -8,7 +8,7 @@ const AboutPage = () => {
       <div className="about-hero">
         <div className="container">
     
-          <h1 className="display-4 fw-bold text-white">Your Personal Online Coach</h1>
+          <h1 className="display-4 fw-bold text-white">Your Personal Coach</h1>
           <div className="accent-line"></div>
         </div>
       </div>
@@ -24,7 +24,7 @@ const AboutPage = () => {
                   className="img-fluid rounded-3 shadow"
                 />
                 <div className="experience-badge">
-                  <span className="number">5+</span>
+                  <span className="number">7+</span>
                   <span className="text">Years Experience</span>
                 </div>
               </div>
@@ -33,9 +33,9 @@ const AboutPage = () => {
               <div className="trainer-info ps-lg-4">
                 <h2 className="mb-4">Hi, I'm Mumba</h2>
                 <p className="lead mb-4">
-                  As a dedicated fitness coach, I specialize in online personal training 
-                  and nutrition coaching, helping clients achieve their dream physique 
-                  through structured programs and consistent guidance.
+                  As a dedicated fitness coach, I offer both online and in-person training. 
+                  I specialize in helping clients achieve their dream physique through structured programs 
+                  and consistent guidance, whether they train with me face-to-face or remotely from anywhere in the world.
                 </p>
 
                 <div className="personal-background mb-4">
@@ -44,7 +44,7 @@ const AboutPage = () => {
                     Beyond fitness, I'm a web developer with a Computer Science degree majoring in AI. 
                     I love traveling to experience new cultures, reading to expand my horizons, and 
                     meeting new people from diverse backgrounds. These experiences help me connect better 
-                    with clients and bring a fresh perspective to my coaching.
+                    with clients and bring a fresh perspective to my coaching, whether online or in-person.
                   </p>
                   <div className="social-links mt-3">
                     <a href="https://www.linkedin.com/in/mumba-amos-ntambo-54a665214/" target="_blank" rel="noopener noreferrer" className="social-link">
@@ -59,6 +59,7 @@ const AboutPage = () => {
                 <div className="credentials mb-4">
                   <h5 className="text-accent mb-3">My Approach</h5>
                   <ul className="list-unstyled">
+                    <li><i className="bi bi-check-circle-fill me-2"></i>Personalized coaching (online & in-person)</li>
                     <li><i className="bi bi-check-circle-fill me-2"></i>Customized nutrition strategies</li>
                     <li><i className="bi bi-check-circle-fill me-2"></i>Regular progress tracking</li>
                     <li><i className="bi bi-check-circle-fill me-2"></i>Sustainable lifestyle changes</li>
@@ -67,8 +68,9 @@ const AboutPage = () => {
 
                 <p className="mb-4">
                   My journey in fitness has taught me that transformation is about more than just workouts – 
-                  it's about building sustainable habits and a strong mindset. I work closely with each client 
-                  to create personalized programs that fit their lifestyle while delivering results.
+                  it's about building sustainable habits and a strong mindset. Whether training online or in-person, 
+                  I work closely with each client to create personalized programs that fit their lifestyle while 
+                  delivering results.
                 </p>
               </div>
             </div>

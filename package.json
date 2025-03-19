@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-transform-regenerator": "^7.25.9",
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -14,9 +15,9 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.3.0",
     "react-scripts": "5.0.1",
+    "regenerator-transform": "^0.15.2",
     "web-vitals": "^2.1.4",
     "yocto-queue": "^1.0.0"
-
   },
   "scripts": {
     "start": "react-scripts start",

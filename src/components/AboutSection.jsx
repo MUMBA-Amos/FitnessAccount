@@ -5,19 +5,19 @@ import aboutCoaching from '../images/about-coaching.png';
 const AboutSection = () => {
   const features = [
     {
-      icon: 'bi bi-lightning-charge',
-      title: 'Body Transformation',
-      description: 'Comprehensive programs for muscle building and fat loss, with proven track record of client success.'
+      icon: 'bi bi-globe',
+      title: 'Online & In-Person',
+      description: 'Flexible coaching options - train with me online from anywhere in the world or in-person in Malaysia.'
     },
     {
-      icon: 'bi bi-heart-pulse',
-      title: 'Nutrition Coaching',
-      description: 'Strategic meal planning and nutritional guidance to optimize your results and energy levels.'
+      icon: 'bi bi-lightning-charge',
+      title: 'Body Transformation',
+      description: 'Comprehensive programs for muscle building, with proven track record of client success.'
     },
     {
       icon: 'bi bi-person-check',
       title: 'Personalized Plans',
-      description: 'Custom workout and nutrition plans tailored to your goals, lifestyle, and available equipment.'
+      description: 'Custom workout and plans tailored to your goals, lifestyle, and available equipment.'
     },
     {
       icon: 'bi bi-graph-up',
@@ -57,11 +57,11 @@ const AboutSection = () => {
           <div className="col-lg-6">
             <div className="about-content ps-lg-4">
               <h6 className="text-accent text-uppercase mb-3">About mfitx</h6>
-              <h2 className="display-5 fw-bold mb-4">Transform Your Body With Expert Online Coaching</h2>
+              <h2 className="display-5 fw-bold mb-4">Transform Your Body With fitness Coaching</h2>
               <p className="lead mb-4">
-                At mfit, I am dedicated to bringing professional fitness coaching to you, wherever you are. 
-                Through my online programs, you'll get the same level of expertise and attention as in-person training, 
-                with the flexibility to train on your schedule.
+                At mfitx, I offer both online and in-person coaching to help you achieve your fitness goals. 
+                Whether you prefer training remotely with flexibility or face-to-face guidance, 
+                I'm here to support your transformation journey.
               </p>
               
               <div className="features-grid">
@@ -81,7 +81,7 @@ const AboutSection = () => {
               <div className="mt-4">
                 <p className="text-muted">
                   <i className="bi bi-check-circle-fill text-accent me-2"></i>
-                  Start your transformation today with expert online guidance
+                  Start your transformation today with personalized guidance
                 </p>
               </div>
             </div>
