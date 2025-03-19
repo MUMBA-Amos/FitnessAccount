@@ -12,20 +12,20 @@ const testimonials = [
   {
     id: 1,
     name: 'Joanna Jerry',
-    role: 'Advanced Elite Online Program',
+    role: 'In person training',
     image: joanna,
     quote: 'As i did the Foundation program all the way to Advanced which was perfect. The guidance and Knowledge of coach Mumba has taught me a lot over the past 2 years, i highly recommend him.',
-    achievement: 'muscle gainer',
+    achievement: '100kg squat PR',
     duration: '4 weeks'
   },
   {
     id: 2,
     name: 'Ntemesha Ntambo',
-    role: 'Advanced Elite',
+    role: 'In person training',
     image: ntenesha,
-    quote: 'The daily form check support was invaluable. I never felt lost or confused, and the workouts fit perfectly my goals.',
+    quote: 'Despite my busy university schedule, the daily form check support was invaluable. I never felt lost or confused, and the workouts fit perfectly my goals, I was able to bench 35+35 kilos each side.',
     achievement: 'Strength',
-    duration: '4 weeks'
+    duration: '4 Months'
   },
   // Intermediate Program Testimonials
   {
@@ -33,8 +33,8 @@ const testimonials = [
     name: 'Mike Chen',
     role: 'Intermediate Program Member',
     image: MikeChen,
-    quote: 'The Intermediate program took my training to the next level. The weekly check-ins and nutrition guidance made a huge difference in my results.',
-    achievement: '+15kg strength',
+    quote: 'The Intermediate online program took my training to the next level. The weekly check-ins and nutrition guidance made a huge difference in my results.',
+    achievement: 'Strength',
     duration: '6 weeks'
   },
   {
@@ -61,7 +61,7 @@ const testimonials = [
     name: 'James Thompson',
     role: 'Intermediate Online Program',
     image: tom,
-    quote: 'The coaching access took my training to elite levels. Having know coach Mumba, he has taught me alot about supplement, how to bulk as a student was exactly what I needed.',
+    quote: 'The coaching access took my training to elite levels. Having known coach Mumba, he has taught me alot about supplement, how to bulk as a student was exactly what I needed.',
     achievement: 'Lean bulking',
     duration: '8 weeks'
   }
@@ -91,7 +91,7 @@ const TestimonialsSection = () => {
       <div className="container position-relative">
         <div className="section-header text-center mb-5">
           <h6 className="text-accent text-uppercase mb-3">Success Stories</h6>
-          <h2 className="display-4 fw-bold">Program Results</h2>
+          <h2 className="display-4 fw-bold"></h2>
           <p className="lead text-muted">Real transformations from our online coaching programs</p>
         </div>
 
